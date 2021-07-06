@@ -122,7 +122,35 @@ p {
 
 }
 
+.wrapper {
+    display:grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    padding:40px;
+}
+.projectOne {
+    display: flex;
+    border-style:solid;
+    border-color:#546A7B;
+    background-color: #F3EAE3;
+    margin-bottom:30px;
+}
 
+.projectTwo {
+    display: flex;
+    border-style:solid;
+    border-color:#546A7B;
+    background-color: #F3EAE3;
+    margin-bottom:30px;
+}
+
+.projectThree {
+        display: flex;
+        border-style:solid;
+        border-color:#546A7B;
+        background-color: #F3EAE3;
+        margin-bottom:30px;
+    
+}
 #footer {
     background-color: #FFFFFF;
     text-align:center;
