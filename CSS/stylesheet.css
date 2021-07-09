@@ -270,7 +270,12 @@ ul .contact {
 }
 
 
-/*MEDIA QUERYYYYYYY*/
+.logo2 {
+    display:none;
+}
+
+
+/*MEDIA QUERYYYYYYY*//*MEDIA QUERYYYYYYY*//*MEDIA QUERYYYYYYY*//*MEDIA QUERYYYYYYY*//*MEDIA QUERYYYYYYY*//*MEDIA QUERYYYYYYY*/
 
 @media only screen and (max-width: 600px) {
 
@@ -280,17 +285,26 @@ ul .contact {
 
     .pfp2 {
         display:block;
+
+    }
+
+    .logo1{
+        display:none;
+    }
+
+    .logo2{
+        display:inline-block;
     }
     .gradient {
         background-image:none;
-        padding-left:5%;
-        padding-right:5%;
+        padding-left:0;
+        padding-right:0;
     }
   
     /* TEXT */
     h1 {
         font-family:'Arimo',sans-serif;
-        font-size:60px;
+        font-size:3.5em;
     }
     
     h2 {
